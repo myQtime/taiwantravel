@@ -90,7 +90,7 @@ export default function home() {
                                 </p>
                                 <ul class="list-group list-group-flush justify-content-around">
                                     <li
-                                        class="list-group-item color-text color-text-hover text-nowrap ps-4 pe-1 pb-2"
+                                        class="list-group-item bg-transparent color-text color-text-hover text-nowrap ps-4 pe-1 pb-2"
                                         onMouseOver={() => {
                                             setHoverseason(spring)
                                         }}
@@ -98,7 +98,7 @@ export default function home() {
                                         初春花海漫遊
                                     </li>
                                     <li
-                                        class="list-group-item color-text color-text-hover text-nowrap ps-4 pe-1 pb-2"
+                                        class="list-group-item bg-transparent color-text color-text-hover text-nowrap ps-4 pe-1 pb-2"
                                         onMouseOver={() => {
                                             setHoverseason(summer)
                                         }}
@@ -106,7 +106,7 @@ export default function home() {
                                         豔夏水上活動
                                     </li>
                                     <li
-                                        class="list-group-item color-text color-text-hover text-nowrap ps-4 pe-1 pb-2"
+                                        class="list-group-item bg-transparent color-text color-text-hover text-nowrap ps-4 pe-1 pb-2"
                                         onMouseOver={() => {
                                             setHoverseason(fall)
                                         }}
@@ -114,7 +114,7 @@ export default function home() {
                                         微秋星空露營
                                     </li>
                                     <li
-                                        class="list-group-item color-text color-text-hover text-nowrap ps-4 pe-1 pb-2"
+                                        class="list-group-item bg-transparent color-text color-text-hover text-nowrap ps-4 pe-1 pb-2"
                                         onMouseOver={() => {
                                             setHoverseason(winter)
                                         }}

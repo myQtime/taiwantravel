@@ -24,7 +24,7 @@ export default function imageCard(props) {
                     ></Image>
                 </div>
 
-                <Text className="fs-5 text-color" style={{ writingMode: 'vertical-rl', textOrientation: 'upright' }}>
+                <Text className="fs-5 color-text" style={{ writingMode: 'vertical-rl', textOrientation: 'upright' }}>
                     {props.children}
                 </Text>
             </div>
