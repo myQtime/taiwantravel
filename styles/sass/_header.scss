@@ -148,7 +148,7 @@
     z-index: 50;
 }
 
-button[class='bottonEffect'] {
+button[class*='bottonEffect'] {
     border-color: $color-gray;
     color: $color-gray;
     background-color: transparent;

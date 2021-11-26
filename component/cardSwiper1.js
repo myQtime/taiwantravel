@@ -28,7 +28,7 @@ export default function cardSwiper1() {
 
     return (
         <>
-            <div style={{ width: '100%' }}>
+            <div style={{ width: '110%' }}>
                 <Swiper
                     modules={[Autoplay, Pagination, Navigation]}
                     autoplay={{
@@ -43,7 +43,6 @@ export default function cardSwiper1() {
                     speed={1000}
                     slidesPerGroup={1}
                     spaceBetween={0}
-                    onSwiper={(swiper) => console.log(swiper)}
                     className="mySwiper2"
                     breakpoints={{
                         576: { slidesPerView: 4 },

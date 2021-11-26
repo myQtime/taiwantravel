@@ -256,19 +256,19 @@
   z-index: 50;
 }
 
-button[class='bottonEffect'] {
+button[class*='bottonEffect'] {
   border-color: #737373;
   color: #737373;
   background-color: transparent;
 }
 
-button[class='bottonEffect']:hover {
+button[class*='bottonEffect']:hover {
   border-color: #5e784f;
   color: #ffffff;
   background-color: #5e784f;
 }
 
-button[class='bottonEffect']:focus, button[class='bottonEffect']:active, button[class='bottonEffect']:active:hover {
+button[class*='bottonEffect']:focus, button[class*='bottonEffect']:active, button[class*='bottonEffect']:active:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: #ffffff;
