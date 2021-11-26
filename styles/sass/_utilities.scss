@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Open+Sans:wght@600&display=swap');
+
+*,
+*::before,
+*::after {
+    font-family: 'Noto Sans TC', 'Open Sans', sans-serif;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+
+.color-text {
+    color: $color-gray;
+}
+
+.color-text-hover:hover {
+    color: $color-green;
+}
+
+.color-text-title {
+    color: $color-green;
+}
+
+.color-text-white {
+    color: $color-white;
+}
+
+.color-text-white-50 {
+    color: $color-white-50;
+}
+
+.color-text-title-yellow {
+    color: $color-yellow;
+}
+
+.bg-green {
+    background: $color-green;
+}
+
+.bg-transparent {
+    background: transparent;
+}
+
+.color-menu-icon-stroke {
+    path,
+    circle {
+        stroke: $color-green;
+    }
+    &:hover {
+        path,
+        circle {
+            stroke: $color-yellow;
+        }
+    }
+}
+
+.color-menu-icon-fill {
+    path {
+        fill: $color-green;
+    }
+    &:hover {
+        path {
+            fill: $color-yellow;
+        }
+    }
+}
+
+.color-menu-icon-both {
+    .stroke {
+        stroke: $color-green;
+    }
+    .fill {
+        fill: $color-green;
+    }
+    &:hover {
+        .stroke {
+            stroke: $color-yellow;
+        }
+        .fill {
+            fill: $color-yellow;
+        }
+    }
+}
+
+.container {
+    @media (min-width: 1200px) {
+        max-width: 1040px;
+    }
+}
+
+.cursor-default {
+    cursor: default;
+}
+
+.bg-gray {
+    background: $color-mist-white;
+}
