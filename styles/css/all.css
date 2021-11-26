@@ -12,7 +12,7 @@
 }
 
 .color-text-hover:hover {
-  color: #769763;
+  color: #769763 !important;
 }
 
 .color-text-title {
@@ -288,24 +288,10 @@ button[class*='bottonEffect']:focus, button[class*='bottonEffect']:active, butto
   }
 }
 
-@media (min-width: 768px) {
-  .mySwiper1,
-  .mySwiper2 {
-    width: 1000px;
-  }
-}
-
 @media (min-width: 992px) {
   .mySwiper1,
   .mySwiper2 {
-    width: 1600px;
-  }
-}
-
-@media (min-width: 1440px) {
-  .mySwiper1,
-  .mySwiper2 {
-    width: 3000px;
+    width: 1200px;
   }
 }
 
