@@ -47,8 +47,8 @@ export default function home() {
                             </li>
                         </ul>
                     </div>
-                    <div className="col-1 d-lg-none"></div>
-                    <div className="col-8 col-lg-9 pt-3">
+                    <div className="col-2 d-lg-none"></div>
+                    <div className="col-7 col-lg-9 pt-3">
                         <CardSwiper2 />
                     </div>
                 </div>

@@ -148,7 +148,7 @@
     z-index: 50;
 }
 
-.bottonEffect {
+button[class='bottonEffect'] {
     border-color: $color-gray;
     color: $color-gray;
     background-color: transparent;
@@ -164,6 +164,23 @@
         border-color: $color-white;
         color: $color-white;
         background-color: $color-green;
+    }
+}
+
+.mySwiper1,
+.mySwiper2 {
+    width: 640px;
+    @media (min-width: 576px) {
+        width: 800px;
+    }
+    @media (min-width: 768px) {
+        width: 1000px;
+    }
+    @media (min-width: 992px) {
+        width: 1600px;
+    }
+    @media (min-width: 1440px) {
+        width: 3000px;
     }
 }
 

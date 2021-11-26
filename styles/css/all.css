@@ -256,24 +256,57 @@
   z-index: 50;
 }
 
-.bottonEffect {
+button[class='bottonEffect'] {
   border-color: #737373;
   color: #737373;
   background-color: transparent;
 }
 
-.bottonEffect:hover {
+button[class='bottonEffect']:hover {
   border-color: #5e784f;
   color: #ffffff;
   background-color: #5e784f;
 }
 
-.bottonEffect:focus, .bottonEffect:active, .bottonEffect:active:hover {
+button[class='bottonEffect']:focus, button[class='bottonEffect']:active, button[class='bottonEffect']:active:hover {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-color: #ffffff;
   color: #ffffff;
   background-color: #769763;
+}
+
+.mySwiper1,
+.mySwiper2 {
+  width: 640px;
+}
+
+@media (min-width: 576px) {
+  .mySwiper1,
+  .mySwiper2 {
+    width: 800px;
+  }
+}
+
+@media (min-width: 768px) {
+  .mySwiper1,
+  .mySwiper2 {
+    width: 1000px;
+  }
+}
+
+@media (min-width: 992px) {
+  .mySwiper1,
+  .mySwiper2 {
+    width: 1600px;
+  }
+}
+
+@media (min-width: 1440px) {
+  .mySwiper1,
+  .mySwiper2 {
+    width: 3000px;
+  }
 }
 
 .mySwiper3 {

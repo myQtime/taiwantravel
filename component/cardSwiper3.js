@@ -70,23 +70,7 @@ export default function App() {
                         992: { slidesPerView: 7 },
                         1440: { slidesPerView: 13 },
                     }}
-                    // breakpoints={{
-                    //     // when window width is >= 640px
-                    //     640: {
-                    //         width: 640,
-                    //         slidesPerView: 4,
-                    //     },
-                    //     // when window width is >= 768px
-                    //     768: {
-                    //         width: 768,
-                    //         slidesPerView: 2,
-                    //     },
-                    // }}
                 >
-                    {/* <SwiperSlide>
-                        <ImgCard src={url}>台北北投溫泉館</ImgCard>
-                    </SwiperSlide> */}
-
                     {imageData
                         ? imageData.map((item) => (
                               <SwiperSlide>
