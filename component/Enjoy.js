@@ -4,8 +4,7 @@ import CardSwiper3 from './cardSwiper3.js'
 export default function home() {
     return (
         <>
-            <div className="pb-5">
-                {' '}
+            <div className=" pb-5">
                 <div className="container py-5">
                     <div className="row ">
                         <div className="col-6 cursor-default pt-5">
@@ -20,7 +19,7 @@ export default function home() {
                             <div className="d-flex justify-content-end">
                                 <button
                                     type="button"
-                                    className="btn btn-outline-primary rounded-pill bottonEffect px-4"
+                                    className="bottonEffect btn btn-outline-primary rounded-pill bottonEffect px-4"
                                 >
                                     更多台灣美食
                                 </button>

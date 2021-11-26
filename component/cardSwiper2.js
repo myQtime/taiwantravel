@@ -47,9 +47,7 @@ export default function cardSwiper2() {
                     className="mySwiper2"
                     breakpoints={{
                         576: { slidesPerView: 4 },
-                        768: { slidesPerView: 5 },
-                        992: { slidesPerView: 7 },
-                        1440: { slidesPerView: 13 },
+                        992: { slidesPerView: 5 },
                     }}
                 >
                     {/* <SwiperSlide>

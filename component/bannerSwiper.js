@@ -37,7 +37,7 @@ export default function App() {
                     pagination={{
                         clickable: true,
                     }}
-                    className="mySwiper1"
+                    className="mySwiper"
                 >
                     <SwiperSlide>
                         <div className="bannerImage position-relative d-flex justifu-contene-center">
